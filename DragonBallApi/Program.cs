@@ -17,6 +17,7 @@ builder.Services.AddHttpClient<IDragonBallApiService, DragonBallApiService>(clie
     client.Timeout = TimeSpan.FromSeconds(30);
 });
 
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

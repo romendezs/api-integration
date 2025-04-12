@@ -50,7 +50,7 @@ namespace DragonBall.Domain.Models
         public Uri Image { get; set; }
 
         [JsonProperty("affiliation")]
-        public Affiliation Affiliation { get; set; }
+        public String Affiliation { get; set; }
 
         [JsonProperty("deletedAt")]
         public object DeletedAt { get; set; }
